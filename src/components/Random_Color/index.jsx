@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const index = () => {
+const RandomColorGenerator = () => {
   const [typeOfColor, setTypeOfColor] = useState("hex");
   const [color, setColor] = useState("#000000");
 
@@ -86,4 +86,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default RandomColorGenerator;

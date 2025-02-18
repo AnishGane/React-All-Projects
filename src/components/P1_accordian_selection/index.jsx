@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { questions } from "./data";
 import "./style.css";
 
-const index = () => {
+const Accordian = () => {
   const [singleSelection, setSingleSelection] = useState(null);
 
   //   For Multiple Selection
@@ -70,4 +70,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Accordian;
