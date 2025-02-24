@@ -1,4 +1,7 @@
 import React from "react";
+// import QRGenerator from "./components/P7_QRGenerator";
+// import LightDarkTheme from "./components/P8_LightDarkTheme";
+import ScrollIndicator from "./components/P9_ScrollIndicator";
 // import TreeView from "./components/P6_RecurssiveNavMenu";
 // import sidemenu from "./components/P6_RecurssiveNavMenu/data";
 // import LoadMoreData from "./components/P5_LoadMoreData";
@@ -27,6 +30,11 @@ const App = () => {
       {/* Project 6 */}
       {/* <TreeView menus={sidemenu} /> */}
       {/* Project 7 */}
+      {/* <QRGenerator /> */}
+      {/* Project 8 */}
+      {/* <LightDarkTheme /> */}
+      {/* Project 9 */}
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
     </div>
   );
 };
